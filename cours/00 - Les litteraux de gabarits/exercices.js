@@ -24,22 +24,34 @@
 // Exercice 0
 // Déclarez une fonction merci(prenom, nomSociete) et faites lui retourner
 // une template string qui correspond à la solution de l'énoncé
-
+function merci(prenom, nomSociete) {
+    return `C'est ${prenom} qui m'a permis d'entrer dans ${nomSociete}`;
+}
 
 // Exercice 1
 // Déclarez une fonction formaterAdresse(prenom, nom, adresse, codePostal, ville)
 // et faites lui retourner une template string qui correspond à la solution de l'énoncé
-
+function formaterAdresse(prenom, nom, adresse, codePostal, ville) {
+    return `===[ Destinataire ]===
+${prenom} ${nom}
+${adresse}
+${codePostal} ${ville}`;
+}
 
 // Exercice 2
 // Déclarez une fonction convertirEnSemaines(nombreDeJours) et faites lui retourner
 // une template string qui correspond à la solution de l'énoncé
-
+function convertirEnSemaines(nombreDeJours) {
+    return `${nombreDeJours} jours sont équivalents à ${nombreDeJours / 7} semaines`;
+}
 
 // Exercice 3
 // Déclarez une fonction templateString() et faites lui retourner
 // une template string qui correspond à la solution de l'énoncé
-
+function templateString() {
+    return `Les template strings sont délimitées par des backticks \`\`.
+Pour créer un espace réservé on utilise \$\{\}.`
+}
 
 // Exercice 4
 // Déclarez une fonction convertirEnSemainesEtJours(nombreDeJours) et faites lui retourner
